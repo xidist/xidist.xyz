@@ -18,11 +18,20 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
+    <div class="matrix-field" aria-hidden="true">
+      <span>01001000</span>
+      <span>TOUCHDESIGNER</span>
+      <span>LIVE SIGNAL</span>
+      <span>HAYSTACK</span>
+      <span>BLACK FUTURITY</span>
+      <span>PRINT / CODE</span>
+    </div>
     <header class="site-header">
-      <a class="brand" href="#top" aria-label="xidist home">xidist</a>
+      <a class="brand" href="#top" aria-label="xidist home">xidist@web:~$</a>
       <nav aria-label="Portfolio sections">
-        <a href="#work">work</a>
-        <a href="#statement">statement</a>
+        <a href="#work">./work</a>
+        <a href="#statement">cat statement</a>
+        <a href="#haystack">haystack</a>
         <a href="#links">links</a>
       </nav>
     </header>
@@ -30,14 +39,16 @@
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-copy">
-          <p class="eyebrow">Minneapolis, MN</p>
-          <h1 id="hero-title">Kidist Wosenyeleh</h1>
+          <p class="eyebrow">[minneapolis.mn] booting portfolio...</p>
+          <h1 id="hero-title">kidist_wosenyeleh</h1>
           <p class="dek">
             Moving image, creative coding, music, printmaking, and live visual systems.
           </p>
+          <p class="terminal-line">root@xidist:~$ run visual_memory.sh --sound --screen --hands</p>
           <div class="quick-links" aria-label="Primary links">
             <a href="mailto:kwosenyeleh@nwhealth.edu">Email</a>
             <a href="https://github.com/xidist?tab=repositories">GitHub</a>
+            <a href="https://www.linkedin.com/in/kidistwosenyeleh/">LinkedIn</a>
             <a href="https://youtube.com/@hermarshaspeaks?si=iFq0HOVHtr5ciSKM">YouTube</a>
             <a href="https://bsky.app/profile/diariasdiary.bsky.social">Bluesky</a>
           </div>
@@ -49,12 +60,12 @@
       </section>
 
       <section class="ticker" aria-label="Practice areas">
-        <span>TouchDesigner</span>
-        <span>live visuals</span>
-        <span>experimental video</span>
-        <span>guitar processing</span>
-        <span>print texture</span>
-        <span>webcam feedback</span>
+        <span>$ TouchDesigner</span>
+        <span>$ live visuals</span>
+        <span>$ experimental video</span>
+        <span>$ guitar processing</span>
+        <span>$ print texture</span>
+        <span>$ webcam feedback</span>
       </section>
 
       <section class="section intro-grid" id="statement" aria-labelledby="statement-title">
@@ -74,14 +85,14 @@
       <section class="section" id="work" aria-labelledby="work-title">
         <div class="section-heading">
           <p class="eyebrow">Selected work</p>
-          <h2 id="work-title">Notion portfolio cuts</h2>
+          <h2 id="work-title">./notion_portfolio --selected</h2>
         </div>
 
         <div class="project-grid">
           <article class="project feature">
             <img src="assets/water.gif" alt="Animated water visual from TouchDesigner">
             <div class="project-copy">
-              <p class="tag">TouchDesigner / stream</p>
+              <p class="tag">[TouchDesigner / stream]</p>
               <h3>water</h3>
               <p>
                 A Lake Harriet inspired visual study using water texture, live processing,
@@ -93,7 +104,7 @@
           <article class="project">
             <img src="assets/film-grain.gif" alt="Animated film grain visual study">
             <div class="project-copy">
-              <p class="tag">TouchDesigner</p>
+              <p class="tag">[TouchDesigner]</p>
               <h3>FILM GRAIN</h3>
               <p>
                 A glitchy texture experiment that drifted away from literal film grain and
@@ -105,7 +116,7 @@
           <article class="project">
             <img src="assets/mediapipe.png" alt="MediaPipe based visual tracking interface">
             <div class="project-copy">
-              <p class="tag">MediaPipe / webcam</p>
+              <p class="tag">[MediaPipe / webcam]</p>
               <h3>finger colorshift</h3>
               <p>
                 Hand and pose tracking routed into TouchDesigner, exploring the body as a
@@ -117,7 +128,7 @@
           <article class="project">
             <img src="assets/layout.png" alt="TouchDesigner network layout study">
             <div class="project-copy">
-              <p class="tag">system study</p>
+              <p class="tag">[system study]</p>
               <h3>layout</h3>
               <p>
                 Network studies, interface sketches, and repeatable TouchDesigner structures
@@ -128,16 +139,24 @@
         </div>
       </section>
 
-      <section class="section split" aria-labelledby="haystack-title">
+      <section class="section split haystack-section" id="haystack" aria-labelledby="haystack-title">
         <div>
-          <p class="eyebrow">Analog layer</p>
-          <h2 id="haystack-title">Haystack printmaking</h2>
+          <p class="eyebrow">Analog layer mounted</p>
+          <h2 id="haystack-title">Haystack printmaking / lithography</h2>
         </div>
-        <p>
-          Through a scholarship supported class at Haystack, I studied introductory printmaking
-          and lithography. Cut paper forms, color layering, abstraction, and handmade image
-          construction now feed back into the digital work.
-        </p>
+        <div class="terminal-panel">
+          <p>
+            Through a scholarship supported class at Haystack, I studied introductory
+            printmaking and lithography. I cut paper forms by hand, translated them into
+            printed compositions, and worked through color, layering, abstraction, and
+            handmade image construction.
+          </p>
+          <p>
+            That analog process feeds the screen work: saturated color, rough edges,
+            texture, distortion, and the tension between a handmade mark and a computed image.
+          </p>
+          <a class="inline-link" href="assets/portfolio.pdf">Open portfolio PDF</a>
+        </div>
       </section>
 
       <section class="section links-section" id="links" aria-labelledby="links-title">
@@ -146,11 +165,12 @@
           <h2 id="links-title">Find the work</h2>
         </div>
         <div class="link-list">
+          <a href="https://www.linkedin.com/in/kidistwosenyeleh/">LinkedIn</a>
           <a href="https://github.com/xidist/final-project/tree/main">Audio visuals / algorave study</a>
           <a href="https://www.twitch.tv/tinyspigot/clip/ExuberantWonderfulSpiderKappaRoss-Kn68XntQg0M-Zizr">Twitch performance clip</a>
           <a href="https://on.soundcloud.com/foPyFjr1BKPFuaQPtv">SoundCloud 1</a>
           <a href="https://on.soundcloud.com/Fpi0VMPC7fz0kHTYs7">SoundCloud 2</a>
-          <a href="https://www.linkedin.com/in/kidistwosenyeleh/">LinkedIn</a>
+          <a href="assets/portfolio.pdf">Portfolio PDF / Haystack</a>
         </div>
       </section>
     </main>
